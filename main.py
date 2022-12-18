@@ -1,5 +1,6 @@
-import os
+
 from pytube.__main__ import YouTube
+from pytube import YouTube
 
 def passmooitonlien(link):
     youtubeObject = Youtube(link)
